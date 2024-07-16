@@ -102,7 +102,12 @@ footer > p{
 }
 
 footer a {
+    text-decoration: underline;
     text-align: center;
+}
+
+footer a:hover{
+    background-color: var(--tons-amarelo5);
 }
 
 .foto{
