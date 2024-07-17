@@ -102,7 +102,8 @@ footer > p{
 }
 
 footer a {
-    text-decoration: underline;
+    color: var(--cordeletra);
+    text-decoration: none;
     text-align: center;
 }
 
@@ -110,8 +111,16 @@ footer a:hover{
     background-color: var(--tons-amarelo5);
 }
 
+
+
 .foto{
     padding: 10px 0px 10px 0px;
     text-align: center;
     display: block;
+}
+
+.slip {
+    color: var(--cordeletra);
+    text-decoration: none;
+    font-family: 'slipknot', Arial, Helvetica, sans-serif;
 }
