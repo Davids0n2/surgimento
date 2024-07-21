@@ -15,9 +15,9 @@
     --tons-amarelo4:#feff47; 
     --tons-amarelo5:#ffff5e; 
     --cordeletra:#1b1814;
-    --cormain: aliceblue;
-}
+    --cormain: #d2e2ef;
 
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -26,7 +26,9 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+
 p{
+    
     line-height: 1.5em;
     color: var(--cordeletra);
 }
