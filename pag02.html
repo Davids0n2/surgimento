@@ -5,27 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Membros da banda slipknot</title>
     <style>
-
+        @font-face {
+    font-family: 'slipknot';
+    src: url(fontes/Sickness.ttf);
+    }
     :root{
 
-             
- 
             --tons-amarelo1:#fbff00;
             --tons-amarelo2:#fcff18;
             --tons-amarelo3:#fdff2f; 
             --tons-amarelo4:#feff47; 
             --tons-amarelo5:#ffff5e; 
             --cordeletra:#1b1814;
-            --cormain: aliceblue;
+            --cormain: #d2e2ef;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
     }
 
     body{
+        background-color: rgb(255, 255, 255);
 
     }
 
     header{
-           
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-image: linear-gradient( to bottom, var(--tons-amarelo5), var(--tons-amarelo1));
     }
+
+    header > h1{
+        font-size: 4.3em;
+        font-family: 'slipknot',  Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    header > p{
+        padding-top: 5px;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    nav{
+        box-shadow: 0px 7px 10px black;
+        padding: 10px;
+        background-color: var(--tons-amarelo1);
+    }
+
+    nav > a{
+        color: #1b1814;
+        padding: 10px;
+        text-decoration:  none;
+
+    }
+
+    nav a:hover{
+        background-color: var(--tons-amarelo4);
+    }
+
+    main{
+        box-shadow: 3px 8px 20px black;;
+        margin: auto;
+        background-color: var(--cormain);
+        min-width: 320px;
+        max-width: 800px;
+    }
+
+    main h1, h2, p{
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    main h1{
+        font-size: 1.8em;
+        text-indent: 10px ;
+    }
+
+    main h2{
+        text-indent: 10px;
+    }
+
+    main p{
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    footer{
+        background-color: var(--tons-amarelo2);
+    }
+
+    footer > p{
+        text-align: center;
+    }
+
+    footer a {
+        color: var(--cordeletra);
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer a:hover{
+        background-color: var(--tons-amarelo5);
+    }
+
     </style>
 </head>
 <body>
@@ -40,8 +126,12 @@
     </nav>
     <main>
         <article>
-            <h1>Joey Jordison</h1>
+            <h1>Membros da banda slipknot:</h1>
+            
         </article>
     </main>
+    <footer>
+        Rede social do criador <a href="https://www.tiktok.com/@ddavids0n2">Davids0n2</a>
+    </footer>
 </body>
 </html>
