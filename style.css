@@ -8,9 +8,9 @@
 :root{
 
     --a:#8c5d43;
-    --b:#5e2924;
+    --b:#c51505;
     --c:#ff2a00;
-    --d:#411d22;
+    --d:#5e1a23;
     --e:#100b0c;
     --vermelho-claro:#fa5938;
     --cordeletra:#1b1814;
@@ -57,7 +57,7 @@ header > p{
 nav{
     box-shadow: 0px 7px 10px black;
     padding: 10px;
-    background-color: var(--c);
+    background-color: var(--b);
 }
 
 nav > a{
@@ -68,7 +68,9 @@ nav > a{
 }
 
 nav a:hover{
+    border-radius: 15px;
     background-color: var(--vermelho-claro);
+    transition: .5s;
 }
 
 main{
@@ -100,7 +102,7 @@ main p{
 }
 
 footer{
-    background-color: var(--c);
+    background-color: var(--b);
 }
 
 footer > p{
