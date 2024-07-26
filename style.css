@@ -7,13 +7,12 @@
  
 :root{
 
-    
-    
-    --tons-amarelo1:#fbff00;
-    --tons-amarelo2:#fcff18;
-    --tons-amarelo3:#fdff2f; 
-    --tons-amarelo4:#feff47; 
-    --tons-amarelo5:#ffff5e; 
+    --a:#8c5d43;
+    --b:#5e2924;
+    --c:#ff2a00;
+    --d:#411d22;
+    --e:#100b0c;
+    --vermelho-claro:#fa5938;
     --cordeletra:#1b1814;
     --cormain: #d2e2ef;
 
@@ -24,7 +23,7 @@
 } 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(imagens/fundo-body.jpg);
 }
 
 p{
@@ -37,16 +36,19 @@ header{
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: linear-gradient( to bottom, var(--tons-amarelo5), var(--tons-amarelo1));
+    background-image: linear-gradient( to top, var(--c), var(--e));
 }
 
 header > h1{
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
     font-size: 4.3em;
     font-family: 'slipknot',  Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 header > p{
+    color: black;
     padding-top: 5px;
     font-size: 1.3em;
     text-align: center;
@@ -55,18 +57,18 @@ header > p{
 nav{
     box-shadow: 0px 7px 10px black;
     padding: 10px;
-    background-color: var(--tons-amarelo1);
+    background-color: var(--c);
 }
 
 nav > a{
-    color: #1b1814;
+    color: black;
     padding: 10px;
     text-decoration:  none;
 
 }
 
 nav a:hover{
-    background-color: var(--tons-amarelo4);
+    background-color: var(--vermelho-claro);
 }
 
 main{
@@ -91,26 +93,29 @@ main h2{
     text-indent: 10px;
 }
 main p{
+    margin-left: 7px;
+    margin-right: 7px;
     text-align: justify;
     text-indent: 20px;
 }
 
 footer{
-    background-color: var(--tons-amarelo2);
+    background-color: var(--c);
 }
 
 footer > p{
+    padding: 3px;
     text-align: center;
 }
 
 footer a {
-    color: var(--cordeletra);
+    color: black;
     text-decoration: none;
     text-align: center;
 }
 
 footer a:hover{
-    background-color: var(--tons-amarelo5);
+    background-color: var(--vermelho-claro);
 }
 
 
