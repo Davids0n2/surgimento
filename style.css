@@ -23,7 +23,9 @@
 } 
 
 body{
-    background-image: url(imagens/fundo-body.jpg);
+    height: 100vh;
+    background: black url('imagens/fundo-body.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 p{
